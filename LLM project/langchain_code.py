@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 import os
 from langchain.llms import GooglePalm
 load_dotenv()
-llm = GooglePalm(google_api_key = os.environ["GOOGLE_API_KEY"], temperature=0.1)
+llm = GooglePalm(google_api_key = os.environ["GOOGLE_API_KEY"], temperature=0.1) #get your own google api key and create a .env file
 
 
 instructor_embeddings = HuggingFaceInstructEmbeddings()
