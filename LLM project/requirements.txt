@@ -4,3 +4,9 @@ streamlit==1.22.0
 tiktoken==0.4.0
 faiss-cpu==1.7.4
 protobuf~=3.19.0
+google-generative ai
+huggingface
+transformers
+sentence_transformers
+InstructorEmbedding
+Torch
